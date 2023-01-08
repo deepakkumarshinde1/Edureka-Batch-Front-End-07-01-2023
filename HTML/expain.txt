@@ -1,0 +1,30 @@
+Front End => Browser 
+    HTML => Create Skeleton For Web Page 
+        tables , paragraphs , heading , forms, list
+    CSS => Handel Design Of Of Page
+        add colors, add backgrounds, create pop, add animation
+    JS => Interaction with page
+
+Website 
+    Static Pages
+or 
+Web Application 
+    Dynamic Pages
+
+HTML => Hypertext Markup Language
+    => Hypertext -> move from to other page 
+    => Markup => Syntax Structure
+
+    <TagName> => Open Tag
+    </TagName> => Close Tag
+
+    <TagName> content </TagName> => HTML Element 
+    content => text or other tag
+
+    HTML Elements => Pre Define
+
+    HTML => 5
+
+    <!DOCTYPE html> => indicator
+
+    Web Page or Web Document
