@@ -1,0 +1,40 @@
+/* element selector */
+mark {
+  background-color: red;
+}
+span {
+  background-color: red;
+  color: white;
+}
+
+/* id selector => # as prefix */
+#text-yellow {
+  background-color: yellow;
+  color: red;
+}
+
+#text-yellow1 {
+  background-color: yellow;
+  color: red;
+}
+/* class selector => . as prefix */
+.bg-yellow {
+  background-color: yellow;
+}
+.text-red {
+  /* color: red; */
+  /* color: rgb(145, 254, 56); */
+  /* 0 255 */
+  color: #a140ef;
+  /* 0 ... f */
+}
+/* 
+  element selector
+  id selector => #
+  class selector (90%) => .
+  group selector
+  attribute selector
+  universal selector (1%) => resting css
+*/
+
+/* pseudo class & pseudo element */

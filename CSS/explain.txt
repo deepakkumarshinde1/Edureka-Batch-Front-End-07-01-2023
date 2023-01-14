@@ -1,0 +1,53 @@
+id => uniquely identifiers
+CSS => style => design
+    inline => design a specific element
+    internal => design a single page
+    external (dev) => create  common design 
+
+    syntax => 
+     inline 
+        prop-name1:value value value;
+        prop-name2:value value value;
+        prop-name3:value value value;
+        prop-name4:value value value
+
+    internal
+        selector{
+            prop-name:value value value;
+            prop-name:value value value;
+            prop-name:value value value;
+            prop-name:value value value;
+        }
+
+    
+    browser has its own css
+    custom css is having more priority
+
+h1{
+    background-color:red
+}
+h1 => 
+0 => 0
+1 => 1
+2 => 2
+3 => 3
+4 => 4
+5 => 5
+6 => 6
+7 => 7
+8 => 8
+9 => 9
+10 => a
+11 => b
+12 => c
+13 => d
+14 => e
+15 => f
+
+rgb => 0 ... 255
+hex => 0 ... f
+
+hex => rr gg bb
+ red  => #ff0000
+ green => #00ff00
+ blue => #0000ff

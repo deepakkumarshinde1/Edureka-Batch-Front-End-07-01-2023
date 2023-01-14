@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.text {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.remove-bold {
+  font-weight: normal;
+}
+
+.brand {
+  color: navy;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.brand:hover {
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+.text-center {
+  text-align: center;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+.link {
+  color: blue;
+  text-decoration: underline;
+  list-style: none;
+}
+
+.heading {
+  color: red;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* pseudo class default for a tag*/
+/* pseudo class work only when state will occurs i.e user interact*/
+
+.li-link {
+  text-decoration: none;
+}
+.li-link:link {
+  color: green;
+}
+
+.li-link:visited {
+  color: brown;
+}
+
+.li-link:hover {
+  text-decoration: underline;
+  color: orange;
+  font-style: italic;
+}
+.li-link:active {
+  color: black;
+}
+
+.border {
+  border-color: red;
+  border-style: dashed;
+  border-width: 5px;
+  padding: 10px; /* space in between content & border*/
+  width: 50%;
+  /* background-color: yellow; */
+  background-image: url(https://www.shutterstock.com/image-illustration/snowflake-simple-line-logo-winter-260nw-1857518647.jpg);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* descendant selector
+  .t-head th {
+  }
+*/
+
+/* group selector 
+
+selector1, selector2, selector3 {
+}
+
+*/
+
+.table-border,
+.t-head th,
+.t-body td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: green;
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: center;
+}
+.table {
+  width: 80%;
+}
+.t-head th {
+  background-color: red;
+  color: white;
+}
+
+.t-body tr:nth-child(odd) {
+  background-color: rgb(164, 248, 164);
+  color: black;
+}
+
+.t-body tr:nth-child(even) {
+  background-color: rgb(124, 164, 244);
+  color: black;
+}
+/* 1,3,5,7,9,11 ... */
