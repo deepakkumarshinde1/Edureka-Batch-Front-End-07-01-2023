@@ -1,0 +1,40 @@
+/* css resting with universal selector */
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
+.card {
+  /* width: 250px;
+  background-color: red;
+  height: 150px;
+  margin: 5px;*/
+  /* margin-top: ;
+  margin-bottom: ;
+  padding-left: ; */
+
+  /* border-left-color: ;
+  border-left-width: ; */
+
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  border-width: 5px;
+  border-style: solid;
+  padding: 10px;
+}
+
+/* px => pixel 
+   % => percent
+
+
+   border => create line along to element 
+   padding => space in side element in between content & border
+   width & height (content)=> element area
+   margin => space surrounding to element 
+
+   Box Model
+*/

@@ -1,0 +1,131 @@
+/* css resting with universal selector */
+@font-face {
+  font-family: Poppins;
+  src: url(../fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+.card-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 240px;
+  /* height: 350px; */
+  /* border-width: 5px;
+  border-style: solid; */
+  /* padding: 10px; */
+  margin: 20px;
+  margin-left: 40px;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px #8080807d;
+  /* x-axis y-axis blur scale color  */
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+.card:hover {
+  /*  move card, rotate card ,scale card => transform */
+  /* move */
+  transform: translateY(-20px);
+  /* rotate */
+  /* rotateY(150deg) => left to right or right - left */
+  /* rotateZ(150deg) => top to bottom or  bottom - top */
+  /* transform: perspective(600px) rotateY(360deg); */
+  /* zoom */
+  /* transform: scale(1.1); */
+}
+
+.card .image {
+  width: 140px;
+}
+
+.card .card-disc {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #c9cece;
+  font-size: 14px;
+}
+
+.card .btn-color-one {
+  background-color: #2182a1;
+  color: white;
+}
+.card .buy-btn {
+  border: none;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.card .btn-color-one:hover {
+  background-color: #064e66;
+  cursor: pointer;
+}
+.card .btn-color-one:active {
+  background-color: #2182a1;
+}
+/* px => pixel 
+   % => percent
+*/
+
+/* .text {
+  width: 150px;
+  height: auto;
+  border-style: solid;
+  border-width: 1px;
+  margin: 20px;
+  overflow: auto;
+} */
+
+/* 
+    inline block
+    grid
+    flex
+*/
+
+.nav {
+  box-shadow: 0 2px 5px 0 #2182a1;
+  padding: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+/*  child selector */
+.menu > li {
+  border-width: 1px;
+  border-style: solid;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
+}
+
+.menu > li:hover {
+  background-color: #2182a1;
+  color: white;
+}
+
+/*  animation transition => animates ui on pseudo class */
+
+/* keyframes,positions => bootstrap */
