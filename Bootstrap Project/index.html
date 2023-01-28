@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./plugin/bootstrap/css/bootstrap.css" />
+  </head>
+  <body>
+    <!--  set class  
+        pre set color
+            success => green
+            danger => red
+            warning => yellow-golden
+            info => blue+green
+            dark => black
+            white
+            secondary => gray
+            light => light-gray
+
+        .text-color*
+        .bg-color*
+        .btn-color*
+        .table-color*
+
+      layout
+        container
+          .container-fluid
+          .container
+        grid system
+          .row
+            .col-1 ... .col-12 (flexible in nature)
+            .col-lg-1 ... .col-lg-12 (large)
+            .col-md-1 ... .col-md-12 (medium)
+            .col-sm-1 ... .col-sm-12 (small)
+    -->
+    <main class="container-fluid">
+      <section class="row">
+        <section class="col-7 bg-danger">
+          <p>This is a section</p>
+        </section>
+        <section class="col-3 bg-warning">
+          <p>This is a section</p>
+        </section>
+      </section>
+      <section class="row">
+        <section class="col-6 bg-info">
+          <p>This is a section</p>
+        </section>
+        <section class="col-3 bg-warning">
+          <section class="row">
+            <article class="col-6 bg-success">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia
+                est sapiente modi quod aperiam praesentium illum nemo optio sunt
+                ipsam odio nihil, laboriosam aliquam voluptatum reiciendis
+                pariatur accusamus deleniti delectus?
+              </p>
+            </article>
+          </section>
+        </section>
+      </section>
+    </main>
+    <!-- 
+  div , main, section ,article, header , footer, nav , aside
+ -->
+    <script>
+      var changeColor = document.getElementById("changeColor");
+      changeColor.addEventListener("click", function () {
+        changeColor.classList.add("btn-danger");
+        changeColor.classList.remove("btn-success");
+      });
+    </script>
+  </body>
+</html>

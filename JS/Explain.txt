@@ -1,0 +1,13 @@
+ES5 (2009) & ES6 (2015)
+ES => ECMA Script
+    => Desktop (Node)
+    => Mobile Application (Node)
+    => Browser Application 
+    => Server Application (Node) (API / Web App)
+
+Browsers => JS Engines (V8)
+    User Interaction 
+
+
+Error in JS
+    Uncaught ReferenceError => Variable or Function Not Created / Available 
