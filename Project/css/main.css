@@ -14,6 +14,14 @@
   cursor: pointer;
 }
 
+.bg-red {
+  background-color: #e50914 !important;
+  color: white;
+}
+.hover-underline:hover {
+  text-decoration: underline !important;
+  color: gainsboro;
+}
 .sign-in {
   background-color: #e50914;
   color: white;
@@ -39,4 +47,92 @@
     url(../images/bg-image.jpg);
   background-size: 100%;
   background-position: center;
+}
+
+.cover-image {
+  height: auto !important;
+}
+
+.netflix-dropdown {
+  background-color: white;
+  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 2px;
+  color: black;
+  width: 100px;
+}
+
+.netflix-dropdown select {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.video-section-1 {
+  position: relative;
+}
+.video-section-1 img {
+  position: relative;
+  z-index: 3;
+}
+.video-1 {
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  z-index: 2;
+  width: 360px;
+  /* bottom: ;
+  left: ;
+  right: ; */
+}
+
+.netflix-accordion {
+  background-color: #303030;
+}
+.netflix-accordion div {
+  border-top-color: black;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+
+.rotate {
+  transform: rotateZ(45deg);
+}
+
+.footer-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: #737373;
+}
+
+.footer-menu li {
+  width: 25%;
+  margin-bottom: 10px;
+}
+
+.footer-menu li a {
+  color: #737373;
+  text-decoration: none;
+}
+.footer-menu li a:hover {
+  text-decoration: underline;
+}
+
+/* sign in css */
+.light-bg {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 0;
+  margin: 0;
+  margin-top: 16px;
+}
+
+.black-transparent {
+  background-color: #000000b3;
 }
